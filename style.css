@@ -1,0 +1,185 @@
+.navbar-expand-md{
+	background: #1C2331;
+	background-attachment: fixed;
+}
+.bgimg{
+	background-image: url('img/two.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	height: 670px;
+	width: 100%;
+}
+#navbar{
+	z-index: 10;
+	width: 100%;
+	position: fixed;
+}
+.headerset{
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+.headerset h2{
+	font-size: 42px;
+}
+.headerset h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+.subscribe{
+	border-radius: 20px;
+}
+.subscribe:hover{
+	border-radius: 15px;
+	transition: all 1s ease;
+	color: #fff !important;
+	background: red !important
+}
+
+
+/*=========================   OUR SERVICES   ===================================*/
+
+.services{
+	transition: all 1s ease;
+	padding: 100px 0px 60px;
+	height: 700px;
+	z-index: -1;
+	margin-top: 100px;
+}
+.fa-shopping-cart{
+	margin-top: 20px;
+}
+.fa-phone{
+	margin-top: 24px;
+}
+.fa-desktop{
+	margin-top: 25px;
+}
+.rowsetting{
+	margin: 80px 0px !important;
+}
+.rowsetting h2{
+	padding: 10px;
+	font-weight: bold;
+}
+.imgsetting{
+	color: red;
+}
+.imgsetting i:hover:before{
+	color: blue;
+	font-size: 40px;
+	transition: all 1s ease;
+}
+
+
+
+/*\\\\\\\\\\\\\\\\\\\\ Portfolio \\\\\\\\\\\\\\\\\\\\\\*/
+
+.portfolio{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.card{
+	margin-top: 30px;
+}
+.card img{
+	align-content: center;
+	justify-content: center;
+	display: flex;
+	height: 200px;
+	width: 400px;
+}
+
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\ Team \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.team{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+.team h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.teams{
+	margin-top: 70px !important;
+}
+
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Footer \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.footer{
+	/*padding-top: 80px;*/
+	height: 50px;
+}
+.footer h5{
+	line-height: 50px;
+}
+
+
+/*\\\\\\\\\\\\\\\\\\\\\\ Responsive \\\\\\\\\\\\\\\\\\\\\\*/
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px) and (max-width: 991){
+	.headerset h2{
+	font-size: 42px;
+	}
+	.headerset h1{
+		font-size: 60px;
+		font-weight: bold;
+	}
+
+}
+@media(min-width: 575px) and (max-width: 767){
+
+}
+@media(min-width: 460px) and(max-width: 574px){
+
+}
+@media(max-width: 479px){
+
+	.services{
+	height: 1300px;
+	}
+	.portfolio{
+		height: 2600px;
+	}
+	.team{
+		height: 1400px;
+	}
+
+}
+
+
+
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+svg{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+svg text{
+	font-size: 30px;
+	fill: rgba(0,0,0,.1);
+	stroke: #fff;
+	font-weight: bold;
+	stroke-linejoin: round;
+	stroke-dasharray: 80;
+	animation: animate 1s linear infinite;
+}
+@keyframes animate {
+	100%
+	{
+		stroke-dashoffset: 160;
+	}
+}
+*/
